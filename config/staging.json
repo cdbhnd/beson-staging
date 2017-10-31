@@ -1,0 +1,62 @@
+{
+    "secret": "codebehind",
+    "password": {
+        "saltRounds": 10
+    },
+    "mongoDbSettings": {
+        "dbUser": "besonAdmin",
+        "dbPassword": "besonAdmin",
+        "dbHost": "ds123695.mlab.com:23695/beson-staging"
+    },
+    "dropbox": {
+        "email": "development+beson@codebehind.rs",
+        "password": "besonbeson",
+        "app_key": "r1nga8vg82l3ct8",
+        "app_secret": "585osfuzriq8afs",
+        "access_token": "VfFysLqXWcAAAAAAAAAACR67Q8VfwgEQiib0PUen168n5CAOmxYYgV2trxFf3ck-"
+    },
+    "cloudinary": {
+        "cloudName": "dpqeinmhn",
+        "apiKey": "866769534385611",
+        "apiSecret": "sI4YxuRcpJj7imne7mjhejV-Oz8"
+    },
+    "documentStorageProvider": "dropbox",
+    "folderPaths": {
+        "assets": "assets",
+        "documentTemplates": "assets/document_templates",
+        "generateDocuments": "assets/generated_documents"
+    },
+    "besonDepartmentInfo": {
+        "Algemeen": {
+            "addressInfo": {
+                "street": "Klokkenbergweg 35B",
+                "postalCode": "1101 AK",
+                "city": "Amsterdam"
+            }
+        },
+        "Dachser": {
+            "addressInfo": {
+                "street": "Handelsweg 2",
+                "postalCode": "2742 RD",
+                "city": "Waddinxveen"
+            }
+        },
+        "DHL": {
+            "addressInfo": {
+                "street": "Klokkenbergweg 35B",
+                "postalCode": "1011 AK",
+                "city": "Amsterdam"
+            }
+        },
+        "DPD": {
+            "addressInfo": {
+                "street": "Celsiusstraat 2-6",
+                "postalCode": "2652 XT",
+                "city": "Berkel en Rodenrijs"
+            }
+        }
+    },
+
+    "numberOfYearDecimals": 2,
+    "numberOfDaysInYear": 365.25
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"globalMiddleware.js","sourceRoot":"","sources":["../../../web/middleware/globalMiddleware.ts"],"names":[],"mappings":";;;;;;;;AAAA,6DAAkF;AAGlF,IAAa,gBAAgB,GAA7B;IAEU,GAAG,CAAC,OAAY,EAAE,QAAa,EAAE,IAAyB;QAC5D,6CAA6C;QAC7C,MAAM,CAAC,oBAAoB,CAAC,GAAG,QAAQ,CAAC;QACxC,IAAI,EAAE,CAAC;IACX,CAAC;CACJ,CAAA;AAPY,gBAAgB;IAD5B,4CAAsB,EAAE;GACZ,gBAAgB,CAO5B;AAPY,4CAAgB"}

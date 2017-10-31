@@ -1,0 +1,1 @@
+{"version":3,"file":"EventAggregator.js","sourceRoot":"","sources":["../../../infrastructure/eventEngine/EventAggregator.ts"],"names":[],"mappings":";;AAAA,iEAA2E;AAG3E;IAMW,MAAM,CAAC,WAAW;QACrB,MAAM,CAAC,SAAM,CAAC,GAAG,CAAiB,QAAK,CAAC,aAAa,CAAC,CAAC;IAC3D,CAAC;;AANa,0BAAU,GAAW,YAAY,CAAC;AAClC,iCAAiB,GAAW,mBAAmB,CAAC;AAChD,sCAAsB,GAAW,wBAAwB,CAAC;AAJ5E,0CASC"}

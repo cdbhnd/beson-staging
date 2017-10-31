@@ -1,0 +1,105 @@
+{
+    "secret": "codebehind",
+    "password": {
+        "saltRounds": 10
+    },
+    "mongoDbSettings": {
+        "dbUser": "besondbuser",
+        "dbPassword": "beson",
+        "dbHost": "ds137550.mlab.com:37550/beson"
+    },
+    "dropbox": {
+        "email": "development+beson@codebehind.rs",
+        "password": "besonbeson",
+        "app_key": "r1nga8vg82l3ct8",
+        "app_secret": "585osfuzriq8afs",
+        "access_token": "VfFysLqXWcAAAAAAAAAACR67Q8VfwgEQiib0PUen168n5CAOmxYYgV2trxFf3ck-"
+    },
+    "cloudinary": {
+        "cloudName": "dpqeinmhn",
+        "apiKey": "866769534385611",
+        "apiSecret": "sI4YxuRcpJj7imne7mjhejV-Oz8"
+    },
+    "documentStorageProvider": "dropbox",
+    "folderPaths": {
+        "assets": "assets",
+        "documentTemplates": "/document_templates",
+        "generateDocuments": "/document_templates"
+    },
+    "host": "http://localhost:8080",
+    "besonDepartmentInfo": {
+        "Algemeen": {
+            "addressInfo": {
+                "street": "Klokkenbergweg 35B",
+                "postalCode": "1101 AK",
+                "city": "Amsterdam"
+            }
+        },
+        "Dachser": {
+            "addressInfo": {
+                "street": "Handelsweg 2",
+                "postalCode": "2742 RD",
+                "city": "Waddinxveen"
+            }
+        },
+        "DHL": {
+            "addressInfo": {
+                "street": "Klokkenbergweg 35B",
+                "postalCode": "1011 AK",
+                "city": "Amsterdam"
+            }
+        },
+        "DPD": {
+            "addressInfo": {
+                "street": "Celsiusstraat 2-6",
+                "postalCode": "2652 XT",
+                "city": "Berkel en Rodenrijs"
+            }
+        }
+    },
+    "numberOfYearDecimals": 2,
+    "numberOfDaysInYear": 365.25,
+    "vacations": [
+        {
+            "min": 0,
+            "max": 16,
+            "multiplier": 9.33
+        },
+        {
+            "min": 17,
+            "max": 18,
+            "multiplier": 10.05
+        },
+        {
+            "min": 19,
+            "max": 39,
+            "multiplier": 10.89
+        },
+        {
+            "min": 40,
+            "max": 44,
+            "multiplier": 10.89
+        },
+        {
+            "min": 45,
+            "max": 49,
+            "multiplier": 10.45
+        },
+        {
+            "min": 50,
+            "max": 54,
+            "multiplier": 10.05
+        },
+        {
+            "min": 55,
+            "max": 59,
+            "multiplier": 9.68
+        },
+        {
+            "min": 60,
+            "max": 999999,
+            "multiplier": 9.33
+        }
+    ],
+    "fixedWorkingHours": 8
+}
